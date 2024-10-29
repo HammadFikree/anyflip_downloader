@@ -14,5 +14,5 @@ __Steps:__
 5. Paste all listed URLs in urls.txt, then only keep the numbered image urls.
 6. Save and run curl_dloader.py (to generate all images in curl_imgs).
 7. Run imgs_to_pdf.py (to generate full pdf from images in curl_imgs).
-8. You will get the pdf in curl_dl and you're done.
+8. You will get the pdf as combined_images.pdf in curl_dl and you're done.
 9. Don't forget to clear URLS in urls.txt, delete all images in curl_imgs, and Empty Recycle Bin.
