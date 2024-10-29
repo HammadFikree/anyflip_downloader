@@ -1,9 +1,10 @@
 from PIL import Image
 import os
 
-# Define the absolute paths for image and output folders
-image_folder = r'C:\Users\hamma\Downloads\curl_dl\curl_imgs'  # Adjust if necessary
-output_folder = r'C:\Users\hamma\Downloads\curl_dl'
+# Define the folders relative to the user's home directory
+home_dir = os.path.expanduser('~')
+image_folder = os.path.join(home_dir, 'Downloads', 'curl_dl', 'curl_imgs')
+output_folder = os.path.join(home_dir, 'Downloads', 'curl_dl')
 pdf_output = os.path.join(output_folder, 'combined_images.pdf')
 
 # Check if the image folder exists
